@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techcamp</title>
+    <style>
+        .container {
+            margin: 0;
+            padding: 0;
+            position: relative;
+        }
+
+        .container .nav {
+            width: 100%;
+            display: flex;
+            position: fixed;
+            text-align: right;
+            background: #2f3031;
+            color: rgb(87, 92, 91);
+            z-index: 1000;
+
+        }
+
+        .container .nav ul li {
+            list-style: none;
+
+        }
+
+        .container .nav ul {
+            text-align: center;
+            justify-content: space-between;
+        }
+
+        .container .nav a {
+            text-decoration: none;
+            color: black;
+            padding: 20px;
+
+        }
+
+        .container .nav a:hover {
+            color: aqua;
+            transition: 0.5s ease-in-out;
+        }
+
+        .container .nav ul {
+            display: flex;
+        }
+
+        .container .hero .image1 {
+            height: 500px;
+            width: 100%;
+
+        }
+
+        .container .hero {
+            text-align: center;
+            position: relative;
+        }
+
+        .container .hero .hero-text {
+            position: absolute;
+            bottom: 20px;
+            
+        }
+        .container .card button {
+            position: absolute;
+            width: 250px;
+            bottom: 0;
+            right:100px; 
+        }
+
+        .container .cards img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        .container .video {
+            text-align: center;
+        }
+        .container .cards {
+            height: 400px;
+            width: 250px;
+            position: relative;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li style="background-color:rgb(244,243,12) ;border-radius: 30px;"><a href="">Certification traings</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#enroll">Enroll</a></li>
+            </ul>
+        </div>
+        <div class="hero">
+            <img class="image1" src="lake-mountains_1204-502.jpg" alt="">
+            <div class="hero-text">
+                <h1>TECHCAMP</h1>
+                <H2>ADVANCED TECHNOLOGY <br> HUB</H2>
+                <button>ENROL TO CERTIFICATION TRAINING</button>
+
+            </div>
+
+        </div>
+        <div class="video">
+            <p>WE DONT JUST LEARN, WE BUILD<br> REAL WORLD APPLICATIONS</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nNCVMR4xTdo?si=oWToseutHAvzKaNj"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="techcamp-online.jpg" alt="">
+                <h3> 1. Certification Training <br>(online & in class Training).</h3>
+                <p>Our trainings are available both In-Class or Online based sessions. You get step by step
+                    guidance from the trainer in the sessions. The trainer shares their screen and guides you
+                    through the programming session. Trainees share their screen for code review and error
+                    solving.</p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="techcamp-online.jpg" alt="">
+                    <h3>2. Only Requirement is to have your own laptop.</h3>
+                    <p>Regardless of your Level of Education or Background of Study, you can get into software
+                        development. By joining our step by step guided training and your growth is fast-paced. We have
+                        students from the age of 13 to 40 learning and applying programming skills.</p>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <img src="tecch3.jpg" alt="">
+                        <h3>3. Join Campers Group and Get Involved in Internal Projects.</h3>
+                        <p>The campers group has a network of technologists/trainers who are brilliant tech researchers
+                            where you get access to the latest tech skills and job readiness . We absorb the most
+                            outstanding trainees to join our internal projects as Junior Software Developers.</p>
+                    </div>
+                    <div class="model">
+                        <img class="model1" src="design in tech.jpg" alt="">
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>

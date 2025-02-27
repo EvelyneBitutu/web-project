@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .container {
+            height: 500px;
+            width: 100%;
+            background-color: rgb(20, 175, 155);
+            border-radius:  10px;
+            position: absolute;
+        }
+
+        .container .nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .container .nav .menu {
+            display: flex;
+            list-style: none;
+
+        }
+        .container .nav .menu li {
+            text-decoration: none;
+            margin: 20px;
+            color: white;
+        }
+
+        .container .nav .menu a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .container .nav .contact {
+            color: white;
+            margin: 20px;
+        }
+        container .nav .contact .li {
+            color: white;
+            margin: 20px;
+        }
+        .container.nav.menu a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .container .content .content1 {
+            color: white;
+            width: 300px;
+            position: absolute;
+            top: 150px;
+            left: 100px;
+        }
+
+        .container .content .image {
+            position: absolute;
+            height: 350px;
+            width: 600px;
+            top: 100;
+            right: 100px;
+        }
+
+        .container .content .content1 button {
+            margin-left: 100px;
+            height: 50px;
+            width: 100px;
+            background-color: rgb(108, 108, 211);
+            color: white;
+            border-radius: 10px;
+        }
+
+        .container .content .content1 .button a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <ul class="menu">
+                <li><a href=""><i class="fa-solid fa-bars" style="color: #cacfd8;"></i></a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+            <ul class="contact">
+                <li><a href="">Contact us </a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="content1">
+                <h1>Simple<br> WebDesign</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quae, provident ducimus fugiat at
+                    pariatur error reprehenderit asperiores officiis. Quae?</p>
+                <button>Portfolio</button>
+            </div>
+            <img class="image" src="pexels-photo-1133957 (1).webp" alt="">
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+
+        .container .nav {
+            display: flex;
+            justify-content: space-between;
+            position: fixed;
+        }
+
+        .container .nav ul li {
+            list-style: none;
+
+        }
+
+        .container .nav a {
+            text-decoration: none;
+            color: black;
+            padding: 20px;
+
+        }
+
+        .container .nav a:hover {
+            color: aqua;
+            transition: 0.5s ease-in-out;
+        }
+
+        .container .nav ul {
+            display: flex;
+        }
+
+        .container .hero .image {
+            display: block;
+            height: 500px;
+            margin: auto;
+
+        }
+
+        .container .hero {
+            background-color: rgb(211, 223, 246);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container .cards {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .container .card {
+            position: relative;
+            width: 250px;
+            height: 250px;
+            box-shadow: 1px 10px 5px black;
+            margin: 10px;
+        }
+
+        .container .card button {
+            position: absolute;
+            width: 250px;
+            bottom: 0;
+            height: 50px;
+            background-color: rgb(26, 162, 184);
+        }
+
+        .container .card button:hover {
+            background-color: brown;
+            transition: 0.5s ease;
+        }
+
+        .container .card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        video {
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+
+            <h3><a href="">MODERNA</a></h3>
+
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Features</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="site">
+            <img class="image" src="lake-mountains_1204-502.jpg" alt="">
+            <h3>WE DONT JUST LEARN, WE BUILD<br> REAL WORLD APPLICATIONS</h3>
+
+        </div>
+        <div class="vid">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fA0gtOFsi88?si=mPtWp8qUEzqdG7xc"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <img src="tree-736885_1280 (5).jpg" alt="">
+                <h3>Fully Responsive</h3>
+                <h4>Card Title</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, minima!</p>
+                <button></button>
+            </div>
+            <div class="card">
+                <h3>Fully Responsive</h3>
+                <h4>Card Title</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, minima!</p>
+                <button></button>
+
+            </div>
+            <div class="card">
+                <h3>Fully Responsive</h3>
+                <h4>Card Title</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, minima!</p>
+                <button></button>
+
+            </div>
+            <div class="card">
+                <h3>Fully Responsive</h3>
+                <h4>Card Title</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, minima!</p>
+                <button></button>
+
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+
+</html>
